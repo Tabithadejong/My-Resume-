@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lato');
+
+body { 
+    font-family: 'Lato', sans-serif;
+    
+}
+h1 { 
+    font-family: 'Lobster', cursive;
+}
+
+.logo { 
+    background: url("../images/Tabitha_WEB_2.jpg"); 
+    background-position: center; 
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out; 
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out; 
+}
+
+
