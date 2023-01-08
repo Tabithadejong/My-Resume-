@@ -51,6 +51,10 @@ header {
     background-color: #9b59b6;
  }
 
+ .bg-color-contact { 
+    background-color: #fff;
+ }
+
 .ui-menu-color-home { 
     background-color: #e67e22;
 }
@@ -176,6 +180,7 @@ h1, h2, h3, h4 {
     font-family: lato, sans-serif;
     font-weight: 300;
     color:#fafafafa; 
+    padding-top: 12px;
 }
 
 /* ---------------------------------------- Footer*/ 
@@ -185,11 +190,12 @@ h1, h2, h3, h4 {
 footer { 
     background-color: #525252;
     color:#fafafa; 
-    min-height: 120px; 
+    min-height: 150px; 
 }
 
 h5 { 
-    text-decoration: underline 2px black;
+   
+    padding-top: 3px;
     
 }
 .cv-pdf i { 
@@ -211,7 +217,7 @@ h5 {
 }
 
 #footer-details { 
-    padding: 20px;
+    padding: 40px;
 }
 
 /* ---------------------------------------- Three reasons  */ 
@@ -286,7 +292,7 @@ h5 {
     margin: 40px 20px; 
 
 }
-/* ---------------------------------------- Work-histore */
+/* ---------------------------------------- Work-history*/
 
 .history-heading { 
     color: #fafafa; 
@@ -332,4 +338,38 @@ h5 {
 }
 .history-items { 
     margin-bottom: 30px;
+}
+
+/* ---------------------------------------- Contact-form */
+
+.contact-heading { 
+    font-family: lato, sans-serif;
+    font-weight: 300;
+    margin-top: 25px;
+    margin-bottom: 20px;
+}
+
+.center-form { 
+    padding-top: 10px;
+    margin: 0 auto;
+    max-width: 70%;
+
+}
+
+button[type="submit"] { 
+    margin-top: 15px;
+    margin-bottom: 20px;
+    color: #fafafa;
+    background-color: #e84610 ;
+}
+
+/* ---------------------------------------- Media-queries*/
+
+@media(min-width: 992px) { 
+    .center-form { 
+        padding-top: 30px;
+        min-height: 240px;
+        max-width: 50%;
+
+    }
 }
