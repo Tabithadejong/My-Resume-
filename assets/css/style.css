@@ -135,7 +135,7 @@ header {
     color: #fff; 
 }
 
-.hvr-sweep-to-bottom:before {
+a.hvr-sweep-to-bottom:before {
     background: rgba(0, 0, 0, 0.2);
     height: 120px;
 }
