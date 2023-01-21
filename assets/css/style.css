@@ -1,375 +1,409 @@
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Lato');
+@import url('https://fonts.googleapis.com/css?family=Roboto:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
+/*--------------------------------------------Colors*/
 
-
-body { 
-    font-family: 'Lato', sans-serif;
-    
-}
-h1 { 
-    font-family: 'Lobster', cursive;
-}
-
-
-
-/* ---------------------------------------- Heading*/ 
-
-
-header { 
-    margin:0; 
-}
-
-.heading {
-    margin-left: 50px;
- }
-
-
-.logo { 
-    background: url("../images/Tabitha_WEB_2.jpg"); 
-    background-position: center; 
-    background-repeat: no-repeat;
-    background-size: cover;
-    min-height: 360px;
-    transition: all .5s ease-in-out; 
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out; 
-}
-/* ---------------------------------------- Colors */ 
-.bg-color-name-title { 
+.bg-color-name-title {
     background-color: #676767;
 }
 
 .bg-color-three-reasons {
-    background-color: #fff;
- }
+    background-color: #ffffff;
+}
 
- .bg-color-personal-info {
-    background-color: #f4f4f4; 
- }
+.bg-color-personal-info {
+    background-color: #f4f4f4;
+}
 
- .bg-color-work-history { 
+.bg-color-skills {
+    background-color: #ffffff;
+}
+
+.bg-color-work-history {
     background-color: #9b59b6;
- }
+}
 
- .bg-color-contact { 
-    background-color: #fff;
- }
+.bg-color-contact {
+    background-color: #ffffff;
+}
 
-.ui-menu-color-home { 
+.bg-color-conferences {
+    background-color: #f4f4f4;
+}
+
+.bg-color-groups {
+    background-color: #ffffff;
+}
+
+.ui-menu-color-home {
     background-color: #e67e22;
 }
 
-.ui-menu-color-resume { 
-    background-color: #9b59b6; 
-}
-.ui-menu-color-contact { 
-    background-color: #66ca8c;
-}
-.ui-menu-color-download { 
-    background-color: #f0ae4a;
+.ui-menu-color-resume {
+    background-color: #9b59b6;
 }
 
-.list-inline-item:not(:last-child) { 
-    margin:0; 
+.ui-menu-color-contact {
+    background-color: #3498db;
 }
 
-.menu-container {
-    font-size: 0; 
-    display: inline;  
-    
-
-}
- 
-#nav li { 
-    font-size: 14px;
-    padding: 0; 
-    border-top: solid 3px #676767; 
+.ui-menu-color-download {
+    background-color: #d9a81d;
 }
 
-.menuitem { 
-    height: 120px;
-    text-align: center;
-    padding:0; 
+
+.ui-menu-color-github {
+    background-color: #1c4a6c;
 }
 
-.menuitem a {
-    width:100%; 
-    text-decoration: none;
-    color: white; 
-    height: 120px; 
- }
- .menuitem a i { 
-    padding-top: 22px ;
-    display:block; 
-    color:#fafafa; 
-    font-size: 26px ;
- }
+.ui-menu-color-interests {
+    background-color: #e74c3c;
+}
 
- .menuitem span { 
-    display: block;
-    width: 100%;
-    padding-top: 5px;
-    text-align: center;
+
+
+
+body {
+    font-family: Roboto, sans-serif;
+    font-weight: 300;
+    background-color: #525252;
+    color: #555555;
+}
+
+
+/*--------------------------------------------Special Paddings/Margins/Text*/
+
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+}
+
+.uppercase {
     text-transform: uppercase;
-    font-size: 14px;
-    font-weight: 300px;
-    letter-spacing: 2px; 
- }
-
-.name { 
-    
-    font-weight: 100px;
-    font-size: 46px;
-    margin-top: 50px; 
-    color:#fff; 
-
-
 }
 
-.title { 
-    font-family: lato, sans-serif;
-    font-weight:200; 
-    font-size: 28px; 
-    margin-top: 20px;
-    margin-bottom: 90px ;
-    color: #fff; 
+.general-sub {
+    font-family: "Exo", sans-serif;
+    font-weight: 300;
+    color: #fafafa;
 }
 
-a.hvr-sweep-to-bottom:before {
-    background: rgba(0, 0, 0, 0.2);
-    height: 120px;
+.inline-block {
+    display: inline-block;
 }
 
-/* ---------------------------------------- Hover.css*/ 
 
-
-/* ---------------------------------------- General pages */  
-
-.inline-block { 
-    display: inline;
+.row-table {
+    display: table;
 }
 
-.row-table { 
-    display: table; 
-}
-.section-column { 
-    display: table-cell; 
-    padding: 0 30px 30px; 
-    float: none;
-}
-
-.section-heading { 
-    font-family: cursive, lobster ;
+.history-heading,
+.section-heading {
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 40px;
 }
 
 
-/* ---------------------------------------- Special paddings/margins/text*/ 
+/*--------------------------------------------Heading*/
 
-h1, h2, h3, h4 { 
-    margin: 0; 
+header {
+    margin: 0;
 }
 
-.uppercase { 
+.heading {
+    margin-left: 50px;
+}
+
+.logo {
+    background: url("../images/Tabitha_WEB_2.jpg");
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 360px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+}
+
+.name {
+    font-family: "Exo", sans-serif;
+    font-weight: 100;
+    font-size: 46px;
+    margin-top: 50px;
+    color: #ffffff;
+}
+
+.title {
+    font-family: "Roboto", sans-serif;
+    font-weight: 200;
+    font-size: 28px;
+    margin-top: 20px;
+    margin-bottom: 90px;
+    color: #ffffff;
+}
+
+#nav {
+    margin: 0;
+}
+
+#nav li {
+    padding: 0;
+}
+
+.menuitem {
+    height: 120px;
+    text-align: center;
+    padding: 0;
+}
+
+.menuitem a {
+    width: 100%;
+    text-decoration: none;
+    color: #ffffff;
+    height: 120px;
+}
+
+
+.menuitem a i {
+    padding-top: 22px;
+    display: block;
+    color: #fafafa;
+    font-size: 26px;
+}
+
+.menuitem span {
+    display: block;
+    width: 100%;
+    padding-top: 5px;
+    text-align: center;
     text-transform: uppercase;
-}
-
-.general-sub { 
-    font-family: lato, sans-serif;
+    font-size: 14px;
     font-weight: 300;
-    color:#fafafafa; 
-    padding-top: 12px;
+    letter-spacing: 2px;
 }
 
-/* ---------------------------------------- Footer*/ 
+
+/*--------------------------------------------Hover.css*/
+
+a.hvr-sweep-to-bottom:before {
+    background: rgba(0, 0, 0, 0.2);
+    height: 120px;
+}
 
 
+/*--------------------------------------------Footer*/
 
-footer { 
+footer {
     background-color: #525252;
-    color:#fafafa; 
-    min-height: 150px; 
+    color: #fafafa;
+    min-height: 120px;
+    margin: 0;
 }
 
-h5 { 
-   
-    padding-top: 3px;
-    
-}
-.cv-pdf i { 
-    font-size: 18px;
+footer .cv-pdf i {
     color: #fafafa;
     text-align: center;
+    font-size: 18px;
     padding-left: 5px;
-    transition: all 0.35s ease-in-out; 
-    -moz-transition: all 0.35s ease-in-out; 
-    -webkit-transition: all 0.35s ease-in-out; 
-    -o-transition: all 0.35s ease-in-out; 
-
-
-
 }
 
-.cv-pdf i:hover { 
-    color:#e84610; 
+footer .cv-pdf i:hover {
+    color: #e84610;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
 }
 
-#footer-details { 
-    padding: 40px;
+.social-links {
+    padding-bottom: 15px;
 }
 
-/* ---------------------------------------- Three reasons  */ 
+.social-links li a i {
+    width: 32px;
+    height: 32px;
+    padding: 12px 0;
+    border-radius: 50%;
+    font-size: 13px;
+    line-height: 7px;
+    text-align: center;
+    color: #fafafa;
+    background: #8f8f8f;
+    transition: all 0.35s ease-in-out;
+    -moz-transition: all 0.35s ease-in-out;
+    -webkit-transition: all 0.35s ease-in-out;
+    -o-transition: all 0.35s ease-in-out;
+}
 
-.three-reasons-icon { 
+.social-links li a i:hover {
+    background: #e84610;
+}
+
+#footer-details {
+    margin: 20px;
+}
+
+/*--------------------------------------------Three Reasons*/
+
+.three-reasons-icon {
     font-size: 26px;
     color: #e67e22;
 }
 
-.three-reasons-heading { 
-
+.three-reasons-heading {
     margin-bottom: 15px;
-
 }
-/* ---------------------------------------- Personal info */ 
 
-.personal-info-item { 
-    margin-bottom: 20px; 
+/*--------------------------------------------Personal Info*/
+
+.personal-info-item {
+    margin-bottom: 20px;
     display: block;
-    clear: both; 
-    
+    clear: both;
 }
 
-.personal-info-item .key, 
-.personal-info-item .value { 
+.personal-info-item .key,
+.personal-info-item .value {
     padding-right: 8px;
-    display: inline-block; 
-
 }
 
-.personal-info-item .key p, 
-.personal-info-item .value p { 
+.personal-info-item .key p,
+.personal-info-item .value p {
     margin: 0;
-
 }
 
-.personal-info-item .key { 
-   width: 30%; 
-   margin-right:21px; 
-   padding-top:2px; 
-   vertical-align: top; 
-
+.personal-info-item .key {
+    display: inline-block;
+    width: 30%;
+    margin-right: 21px;
+    padding-top: 2px;
+    vertical-align: top;
 }
 
-.personal-info-item .key p { 
-    font-weight: 700; 
+.personal-info-item .key p {
+    font-weight: 700;
 }
 
- 
-.personal-info-item .value { 
-    position: relative; 
-    width:60%; 
+.personal-info-item .value {
+    display: inline-block;
+    position: relative;
+    width: 60%;
 }
-/* ---------------------------------------- Skills */ 
 
-.progress { 
-    position:relative; 
-    height: 25px; 
-    margin-bottom: 4px;
+/*--------------------------------------------Skills*/
 
+.progress {
+    position: relative;
+    height: 25px;
 }
-.progress-type { 
+
+.progress-type {
     position: absolute;
-    left: 6px;
+    left: 0px;
     font-weight: 400;
-    padding-top: 10px 30px 2px 10px;
+    padding: 3px 30px 2px 10px;
     color: #fafafa;
     background-color: rgba(25, 25, 25, 0.2);
-
-}
-.progress-section { 
-    margin: 40px 20px; 
-
-}
-/* ---------------------------------------- Work-history*/
-
-.history-heading { 
-    color: #fafafa; 
-    margin-bottom: 50px;
-    padding-top: 12px;
 }
 
-.timeline-item { 
-    padding: 4em 2em 0em 2em; 
+
+.progress-section {
+    margin: 40px 20px;
+}
+
+
+/*--------------------------------------------Work History*/
+
+.timeline-item {
+    padding: 4em 2em 0em 2em;
     position: relative;
     color: #fafafa;
     border-left: 1px solid;
 }
 
-.timeline-item p { 
+.timeline-item p {
     padding: 0;
     margin: 0;
 }
 
-.timeline-item:before { 
+.timeline-item::before {
     content: attr(data-dates);
     position: absolute;
     left: 2.5em;
     top: 3em;
     display: block;
-    font-family: lato, sans-serif;
+    font-family: "Exo", sans-serif;
     font-weight: 500;
-    font-size: 0.8em;
+    font-size: .8em;
     padding: 0;
     margin: 0;
 }
 
-.timeline-item:after { 
+.timeline-item::after {
     width: 12px;
     height: 12px;
     display: block;
-    top: 2.4em; 
+    top: 2.4em;
     position: absolute;
     left: -6px;
     border-radius: 12px;
-    content: "";
-    background-color: #fafafa;
+    content: '';
+    background: #fafafa;
 }
-.history-items { 
+
+.history-heading {
+    color: #fafafa;
+    margin-bottom: 50px;
+}
+
+.history-items {
     margin-bottom: 30px;
 }
 
-/* ---------------------------------------- Contact-form */
+/*--------------------------------------------Contact*/
 
-.contact-heading { 
-    font-family: lato, sans-serif;
+.contact-heading {
+    font-family: "Exo", sans-serif;
     font-weight: 300;
     margin-top: 25px;
     margin-bottom: 20px;
 }
 
-.center-form { 
+
+.center-form {
     padding-top: 10px;
     margin: 0 auto;
     max-width: 70%;
-
 }
 
-button[type="submit"] { 
+button[type="submit"] {
     margin-top: 15px;
     margin-bottom: 20px;
+    background-color: #e84610;
     color: #fafafa;
-    background-color: #e84610 ;
 }
 
-/* ---------------------------------------- Media-queries*/
+/*--------------------------------------------Map*/
+div#map {
+    min-height: 360px;
+}
 
-@media(min-width: 992px) { 
-    .center-form { 
+/*--------------------------------------------Media Queries*/
+
+@media(min-width: 992px) {
+    .section-column {
+        padding: 0 30px 30px;
+        float: none;
+        display: table-cell;
+    }
+
+    .center-form {
         padding-top: 30px;
         min-height: 240px;
+        margin: 0 auto;
         max-width: 50%;
-
     }
 }
