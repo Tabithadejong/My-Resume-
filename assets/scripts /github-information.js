@@ -78,3 +78,6 @@ function fetchGitHubInformation(event) {
 }
 
 $(document).ready(fetchGitHubInformation);
+
+
+// emailjs.send("service_k3ubd8p","template_hkfwdhl"); 
